@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/v3lwpmun5so07l65?svg=true)](https://ci.appveyor.com/project/SemKu/web-selenide)
