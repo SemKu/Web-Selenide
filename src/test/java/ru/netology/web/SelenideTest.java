@@ -17,7 +17,7 @@ public class SelenideTest {
         from.$("[data-test-id=phone] input.input__control").setValue("+79111133030");
         from.$("[data-test-id=agreement]").click();
         from.$(".button__content").click();
-        $(withText("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.")).shouldHave(exactText("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время."));
+        $(withText(" Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.")).shouldHave(exactText("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время."));
 
 
     }
